@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "src\\":"src"    
+        },
+        "files": [
+        	"config.php"
+        ]
+    },
+    "require": {
+        "adodb/adodb-php": "^5.21"
+    }
+}

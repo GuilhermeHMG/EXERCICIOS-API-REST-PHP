@@ -1,0 +1,20 @@
+; Arquivo de configuração para conexão com o
+; banco de dados Oracle, base de teste premier.
+[DATABASE]
+driver	= oci8
+host	= 192.168.230.3
+user	= sercon
+pass	= sercon
+dbname	= premier
+
+; Para consulta de cnpj é necessário que ele esteja
+; setado. A última possição deverá ser a palavra chave
+; para que seja realizada a consulta de todos os cnpj's
+[DEFAULT]
+0 = 11837621000140
+1 = 02203159000210
+2 = MARKETPLACE
+
+; Palavra chave utilizada para decodificação da hash
+[HASH]
+keyword = SERCON
